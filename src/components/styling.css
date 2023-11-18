@@ -39,9 +39,11 @@ th {
   color: white;
   text-align: center;
 }
+
 tr:nth-child(even) {
   background-color: #ddd;
 }
+
 tr:hover {
   background-color: #cacacb;
 }
@@ -53,6 +55,7 @@ td {
 
 h1 {
   padding: 50px;
+  margin: 0px;
   text-align: center;
   background: #5c94ce;
   color: white;
