@@ -1,5 +1,6 @@
-
 import "./styling.css";
+import satData from "./satData"
+
 
 const Buttons = ({ filterByType, setSat, displaySats }) => {
   return (
@@ -14,7 +15,7 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
           );
         })
       }
-      <button onClick={() => setSat(sat)}>All Orbits</button>
+      <button onClick={() => setSat(satData)}>All Orbits</button>
     </div>
     //code continues
   );
